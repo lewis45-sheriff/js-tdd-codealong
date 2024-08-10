@@ -7,3 +7,6 @@ describe("currentAgeForBirthYear", () => {
     expect(ageOfPerson).toBe(38);
   });
 });
+export function currentAgeForBirthYear(birthYear) {
+  return new Date().getFullYear() - birthYear;
+}
