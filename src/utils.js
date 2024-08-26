@@ -1,5 +1,5 @@
-
+// src/utils.js
 export function currentAgeForBirthYear(birthYear) {
-    return new Date().getFullYear() - birthYear;
-  }
-  
+  const currentYear = new Date().getFullYear();
+  return currentYear - birthYear;
+}
