@@ -1,4 +1,4 @@
-import { currentAgeForBirthYear } from "../utils";
+import { currentAgeForBirthYear } from "../utils"; // Import the function from the utils file
 
 describe("currentAgeForBirthYear", () => {
   it("returns the age of a person based on the year of birth", () => {
@@ -7,6 +7,3 @@ describe("currentAgeForBirthYear", () => {
     expect(ageOfPerson).toBe(38);
   });
 });
-export function currentAgeForBirthYear(birthYear) {
-  return new Date().getFullYear() - birthYear;
-}
